@@ -1,0 +1,26 @@
+SSA Core Analytics: Take Home Challenge
+● Background: the sales team, reps work on multiple opportunities varying in
+deal size and age (life cycle of a deal). Reps RSE increases as they get more tenured in
+the company, in a particular role and segment.
+● Prompt questions: You are to present summary analysis to the VP of Go-To-Market on
+the health of different regions for the past two quarters. The VP wants the following
+questions answered:
+○ What’s the total RSE by each region and segment?
+○ What’s the average life cycle by each region?
+○ What’s the average deal size by each region? Does classifying them into
+small/big or any more categories help us find better trends?
+○ What’s the conversion rate by each region and segment?
+○ What are some insightful trends between different regions/segments and your
+recommendations based on these insights?
+
+● Data Definitions: Here are some helpful definitions for your reference:
+○ RSE (Ramped Sales Equivalent) - A sales rep ramp cycle between 0 and 1,
+with 1 representing a sales rep who should be fully trained and selling at
+expected “steady state” productivity based on their tenure. Each combination of
+role & segment has its own ramp duration and expected “steady state”
+productivity.
+○ Conversion Rate - A metric measured by:
+■ ‘Number of Opportunities Closed’ against total opportunities in a given
+period where status = ‘SQL Accepted’.
+■ ‘Total eARR’ from closed opportunities against total opportunities in a
+given period.
